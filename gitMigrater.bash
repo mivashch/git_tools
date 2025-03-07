@@ -20,4 +20,4 @@ while read repo; do
     rm -rf "$repo_name.git"
 done < gitlab_repos.txt
 
-echo "Migration completed!"
+echo "Migration completed!" 
